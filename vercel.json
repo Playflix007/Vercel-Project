@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/:id.mpd",
+      "destination": "/api/mpd?id=:id"
+    },
+    {
+      "source": "/:id.key",
+      "destination": "/api/keys?id=:id"
+    }
+  ]
+}
